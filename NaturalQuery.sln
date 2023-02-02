@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaturalQuery", "NaturalQuery\NaturalQuery.csproj", "{BFBD5322-BE23-40F5-8F80-AEEEB0253B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaturalQuery.NHibernate", "NaturalQuery.NHibernate\NaturalQuery.NHibernate.csproj", "{C0039E11-AEE2-4E33-9BBE-8452F6C2F81F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaturalQuery.Model", "NaturalQuery.Model\NaturalQuery.Model.csproj", "{4CE195A8-7D17-460D-9E2E-3790F25B990D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaturalQuery.EntityFramework", "NaturalQuery.EntityFramework\NaturalQuery.EntityFramework.csproj", "{F4525FA6-8D7F-429A-A43B-6609B14C7CB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaturalQuery.EntityFramework.Test", "NaturalQuery.EntityFramework.Test\NaturalQuery.EntityFramework.Test.csproj", "{51159A47-9356-4C51-B4E6-E4E102732B30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NatualQuery.Console", "NatualQuery.Console\NatualQuery.Console.csproj", "{1D20E20C-0200-4C94-8F61-E797F3203DB5}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://kaiobarbosa.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = NatualQuery.Console\\NatualQuery.Console.csproj
+		SccProjectName1 = NatualQuery.Console
+		SccLocalPath1 = NatualQuery.Console
+		SccProjectUniqueName2 = NaturalQuery.EntityFramework.Test\\NaturalQuery.EntityFramework.Test.csproj
+		SccProjectName2 = NaturalQuery.EntityFramework.Test
+		SccLocalPath2 = NaturalQuery.EntityFramework.Test
+		SccProjectUniqueName3 = NaturalQuery.EntityFramework\\NaturalQuery.EntityFramework.csproj
+		SccProjectName3 = NaturalQuery.EntityFramework
+		SccLocalPath3 = NaturalQuery.EntityFramework
+		SccProjectUniqueName4 = NaturalQuery.Model\\NaturalQuery.Model.csproj
+		SccProjectName4 = NaturalQuery.Model
+		SccLocalPath4 = NaturalQuery.Model
+		SccProjectUniqueName5 = NaturalQuery.NHibernate\\NaturalQuery.NHibernate.csproj
+		SccProjectName5 = NaturalQuery.NHibernate
+		SccLocalPath5 = NaturalQuery.NHibernate
+		SccProjectUniqueName6 = NaturalQuery\\NaturalQuery.csproj
+		SccProjectName6 = NaturalQuery
+		SccLocalPath6 = NaturalQuery
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFBD5322-BE23-40F5-8F80-AEEEB0253B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBD5322-BE23-40F5-8F80-AEEEB0253B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBD5322-BE23-40F5-8F80-AEEEB0253B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBD5322-BE23-40F5-8F80-AEEEB0253B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0039E11-AEE2-4E33-9BBE-8452F6C2F81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0039E11-AEE2-4E33-9BBE-8452F6C2F81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0039E11-AEE2-4E33-9BBE-8452F6C2F81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0039E11-AEE2-4E33-9BBE-8452F6C2F81F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE195A8-7D17-460D-9E2E-3790F25B990D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE195A8-7D17-460D-9E2E-3790F25B990D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE195A8-7D17-460D-9E2E-3790F25B990D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE195A8-7D17-460D-9E2E-3790F25B990D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4525FA6-8D7F-429A-A43B-6609B14C7CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4525FA6-8D7F-429A-A43B-6609B14C7CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4525FA6-8D7F-429A-A43B-6609B14C7CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4525FA6-8D7F-429A-A43B-6609B14C7CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51159A47-9356-4C51-B4E6-E4E102732B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51159A47-9356-4C51-B4E6-E4E102732B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51159A47-9356-4C51-B4E6-E4E102732B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51159A47-9356-4C51-B4E6-E4E102732B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D20E20C-0200-4C94-8F61-E797F3203DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D20E20C-0200-4C94-8F61-E797F3203DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D20E20C-0200-4C94-8F61-E797F3203DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D20E20C-0200-4C94-8F61-E797F3203DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
